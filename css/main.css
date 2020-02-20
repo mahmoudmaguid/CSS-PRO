@@ -19,7 +19,7 @@ p{
     background-color:rgb(245, 238, 238);
 
 }
-.5rd-part{ color: tomato;}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
     border: 0;
@@ -55,4 +55,12 @@ p{
       list-style: none;
     height: 0;
      
+}
+.overflow-hidden{
+    overflow: scroll;
+    height: 80px;
+}
+.overflow-visiable{
+    overflow:visible;
+    height: 35px;
 }
