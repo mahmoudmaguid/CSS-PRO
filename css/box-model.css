@@ -11,9 +11,9 @@
     padding-bottom: 32px;
     padding-left: 32px;
     
-    border-top: 500px solid red;
-    border-right: 500px solid yellow;
-    border-bottom: 500px solid green;
-    border-left: 500px solid blue;
+    border-top: 64px solid red;
+    border-right: 64px solid yellow;
+    border-bottom: 64px solid green;
+    border-left: 64px solid blue;
     background-color: brown;
 }
