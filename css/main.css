@@ -5,6 +5,20 @@ h1{
     text-align: center;
     
 }
+nav{ 
+    width: auto;
+    max-width: 500px;
+    background-color: tomato;
+    margin: 16px auto;
+}
+nav ul{
+    padding: 0;
+    text-align: center;
+
+}
+nav ul li{
+    display:inline-block;
+}
 article{
     width: 600px;
     max-width: 600px;
@@ -62,5 +76,5 @@ p{
 }
 .overflow-visiable{
     overflow:visible;
-    height: 35px;
+    height: 800px;
 }
