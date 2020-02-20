@@ -1,12 +1,21 @@
+
+
+h1{
+    font-family: "Time New Roman",Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+article{
+    width: 600px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
 p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5;
     color:rgb(39, 38, 38); /* there are a few ways to do color;*/
-    background-color: #e98c8c;
+    background-color:brown;
 
-}
-article{
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }

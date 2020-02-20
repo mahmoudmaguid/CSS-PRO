@@ -1,0 +1,19 @@
+[role="presentation"]{
+    width: 500px;
+    height: 432px;
+    margin-top: 64px;
+    margin-right: auto;
+    margin-bottom: 64px;
+    margin-left:auto;
+
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    
+    border-top: 500px solid red;
+    border-right: 500px solid yellow;
+    border-bottom: 500px solid green;
+    border-left: 500px solid blue;
+    background-color: brown;
+}
