@@ -1,15 +1,43 @@
 
+*{
 
-h1{
+box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+
+
+}
+body{
+    background-image: url(../imag/1.jpg);
+    background-size: cover;/*cover the whole element*/
+    background-repeat:no-repeat;
+    background-position: center;/* can be co-ordinates like : 50px 75px*/
+    background-attachment:fixed;
+}
+h1,h2{
     font-family: "Time New Roman",Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    padding-top: 50px;
+    font-size: 46px;
     
+}
+h2{
+    font-size: 32px;
+    padding: 16px 0;
 }
 nav{ 
     width: auto;
     max-width: 500px;
     background-color: tomato;
-    margin: 16px auto;
+    margin: 0 auto;
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    
+    
 }
 nav ul{
     
@@ -34,13 +62,14 @@ article{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    padding: 16px;
+    
 }
 p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5;
     color:rgb(16, 17, 17); /* there are a few ways to do color;*/
     background-color:rgb(245, 238, 238);
+    
 
 }
 
