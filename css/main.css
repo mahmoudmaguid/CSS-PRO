@@ -177,3 +177,28 @@ p{
     overflow:visible;
     height: 800px;
 }
+
+#sociacl-media-links > li {/*direct child selector. the li must be directly inside  the element with the "social-media-links id in this case*/
+    display: inline-block;
+    margin: 8px;
+   
+
+}
+#sociacl-media-links .fab{
+    color:rgb(50,50,50,1);
+    font-size: 45px;
+}
+#sociacl-media-links a:hover .fab,
+#sociacl-media-links a:focus .fab,
+#sociacl-media-links a:active .fab
+    
+{
+
+    color: rgba(204, 29, 29, 0.5);
+
+}
+
+
+
+
+               
