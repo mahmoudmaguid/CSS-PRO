@@ -201,7 +201,8 @@ p{
 
 @media screen and (min-width:500px)
 {
-
+    body{
+        background: rgb(101, 233, 12);}
     h1{
         font-size: 64px;
     }
@@ -212,12 +213,12 @@ p{
     h3{
         font-size: 28px;
     }
+    }
 
-}
 @media screen and (min-width:1024px){
 
     body{
-        background: rgba(231, 14, 14, 0.5);
+        background: rgb(241, 2, 2);
     }
     h1{
         font-size: 70px;
