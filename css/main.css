@@ -1,4 +1,40 @@
 
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Simonetta&display=swap');
+
+@font-face{
+    font-family: 'jetbrians-mono';
+    src: url('../fonts/jetbrains-mono/JetBrainsMono-Regular.ttf');
+    src:url('../fonts/jetbrains-mono/JetBrainsMono-Regular.ttf')format('truetype');
+    src:url('../fonts/transfonter.org-20200224-184913/JetBrainsMono-Regular.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'jetbrians-mono';
+    src: url('../fonts/jetbrains-mono/JetBrainsMono-Bold-Italic.ttf');
+    src: url('../fonts/jetbrains-mono/JetBrainsMono-Bold-Italic.ttf')format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face{
+    font-family: 'jetbrians-mono';
+    src: url('../fonts/jetbrains-mono/JetBrainsMono-Bold.ttf');
+    src: url('../fonts/jetbrains-mono/JetBrainsMono-Bold.ttf')format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+code{
+
+    white-space: pre;
+    font-weight: 'jetbrians-mono', consolas , monospace;
+
+}
 *{
 
 box-sizing: border-box;
@@ -8,21 +44,44 @@ box-sizing: border-box;
 
 
 }
+
 body{
-    background-image: url(../imag/1.jpg);
+    background-image: url(../imag/2.jpg);
     background-size: cover;/*cover the whole element*/
     background-repeat:no-repeat;
     background-position: center;/* can be co-ordinates like : 50px 75px*/
     background-attachment:fixed;
 }
-h1,h2{
-    font-family: "Time New Roman",Georgia, 'Times New Roman', Times, serif;
+h1,h2,h4{
+    font-family: 'Trade Winds', ;
     text-align: center;
+    font-weight: bold;
     padding-top: 50px;
     font-size: 46px;
     
 }
+#float-practice {
+    float: left;
+    margin-top: 0;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    /* margin : 0 16px 16px 0 ; */
+}
+#z-index-practiec{
+    display: block;
+    position: absolute;
+    top:300px;
+    right: 0;
+    left: 0;   
+    margin: auto;
+    z-index: 1;/* visual layering think photshop .... which element should appear "on the top:*/
+
+
+     
+}
 h2{
+    font-family: 'Simonetta', ;
     font-size: 32px;
     padding: 16px 0;
 }
@@ -36,6 +95,7 @@ nav{
     right: 0;
     bottom: auto;
     left: 0;
+    z-index: 2;
     
     
 }
@@ -68,7 +128,7 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5;
     color:rgb(16, 17, 17); /* there are a few ways to do color;*/
-    background-color:rgb(245, 238, 238);
+    background-color:none;
     
 
 }
