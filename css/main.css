@@ -57,7 +57,7 @@ h1,h2,h4{
     text-align: center;
     font-weight: bold;
     padding-top: 50px;
-    font-size: 46px;
+    font-size: 20px;
     
 }
 #float-practice {
@@ -82,7 +82,7 @@ h1,h2,h4{
 }
 h2{
     font-family: 'Simonetta', ;
-    font-size: 32px;
+    font-size: 26;
     padding: 16px 0;
 }
 nav{ 
@@ -199,6 +199,37 @@ p{
 }
 
 
+@media screen and (min-width:500px)
+{
 
+    h1{
+        font-size: 64px;
+    }
+    h2{
+     font-size: 32px;
 
+    }
+    h3{
+        font-size: 28px;
+    }
+
+}
+@media screen and (min-width:1024px){
+
+    body{
+        background: rgba(231, 14, 14, 0.5);
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+     font-size: 65px;
+
+    }
+    h3{
+        font-size: 50px;
+    }
+
+    
+}
                
