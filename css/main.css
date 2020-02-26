@@ -240,6 +240,21 @@ box-shadow: 62px 32px 32px 0 black;
     position: relative;
     z-index: 2;
 }
+.video-section:hover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.33);
+    z-index:2;
+}
+    
+
 
 
 #sociacl-media-links > li {/*direct child selector. the li must be directly inside  the element with the "social-media-links id in this case*/
@@ -308,5 +323,5 @@ h2{
     text-transform: uppercase;
     opacity: 0.5;
     text-shadow: 10PX 10px blue;
+}
     
-}         
