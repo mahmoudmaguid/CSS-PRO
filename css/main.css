@@ -39,6 +39,8 @@
     75%  { transform: scale(3);}
 
     100% { transform: scale(1);}
+
+   
 }
 
 code{
@@ -324,6 +326,20 @@ background-color: darkgoldenrod;
      pointer-events: none;
      font-size: xx-large;
      
+
+}
+#keyframe-test{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: 64px;
+    animation:my-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-timing-function: linear;
+    
 
 }
 
