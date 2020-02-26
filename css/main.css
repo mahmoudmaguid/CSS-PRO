@@ -272,6 +272,18 @@ box-shadow: 62px 32px 32px 0 black;
      4s ease font-size;
 
 }
+  
+/* taragtting child elements*/
+.transiation-transform button:nth-child(2){
+  color: lightblue;
+background-color: black;
+
+}
+
+.transiation-transform button:nth-child(3){
+    color:lightpink;
+background-color: darkgoldenrod;
+}
 .transiation-transform button:hover,
 .transiation-transform button:focus,
 .transiation-transform button:active{
@@ -377,3 +389,4 @@ h2{
     text-shadow: 10PX 10px blue;
 }
     
+}
