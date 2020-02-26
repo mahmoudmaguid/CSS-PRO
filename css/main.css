@@ -242,7 +242,7 @@ box-shadow: 62px 32px 32px 0 black;
 }
 .video-section:hover:before {
     content: '';
-    display: block;
+    display: block;             
     position: absolute;
     top: 0;
     right: 0;
@@ -253,6 +253,52 @@ box-shadow: 62px 32px 32px 0 black;
     background: rgba(255, 255, 255, 0.33);
     z-index:2;
 }
+
+.transiation-transform button{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: gray;
+    background-color: lavenderblush;
+
+    padding: 8px 16px;
+    border: 3px solid black;
+    margin: 32px;
+    cursor:not-allowed;
+    transition: 1S linear border,
+     0.3s ease-in padding,
+     0.5s ease-in-out background-color ,
+     2s ease color ,
+     4s ease font-size;
+
+}
+.transiation-transform button:hover,
+.transiation-transform button:focus,
+.transiation-transform button:active{
+
+    color: lavenderblush;
+    font-size: 16px;
+    background-color: gray;
+   
+    padding: 12px 20px;
+    border: 6px dotted indigo;
+}
+/* transform/ hover example */
+.transiation-transform div{
+
+    transform: 1s ease transform;
+}
+
+.transiation-transform div:hover+div{
+
+    transform:
+     translate(100px,-50px)
+     rotate(35deg)
+     scale(2);
+
+}
+
+
     
 
 
