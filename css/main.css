@@ -285,16 +285,22 @@ box-shadow: 62px 32px 32px 0 black;
 }
 /* transform/ hover example */
 .transiation-transform div{
-
+   display: inline-block;
+   padding: 16px 36px;
+   background-color: lawngreen;
     transform: 1s ease transform;
 }
 
-.transiation-transform div:hover+div{
-
+.transiation-transform div:hover+div{ /* (( + )) is for targatting sibbling of the item we intacting < the sibbling after the item not before */
+   background-color: rgb(130, 0, 252);
+   pointer-events: none;
     transform:
      translate(100px,-50px)
-     rotate(35deg)
+     rotate(150deg)
      scale(2);
+     pointer-events: none;
+     font-size: xx-large;
+     
 
 }
 
